@@ -1,41 +1,4 @@
-## 主要内容
-> #### Markdown*是什么*？
-> #### *谁*创造了它？
-> #### *为什么*要使用它？
-> #### *怎么*使用？
-> #### *谁*在用？
-> #### 尝试一下
-
-## 正文
-### 1. Markdown*是什么*？
-**Markdown**是一种轻量级**标记语言**，它以纯文本形式(*易读、易写、易更改*)编写文档，并最终以HTML格式发布。    
-**Markdown**也可以理解为将以MARKDOWN语法编写的语言转换成HTML内容的工具。    
-
-### 2. *谁*创造了它？
-它由[**Aaron Swartz**](http://www.aaronsw.com/)和**John Gruber**共同设计，**Aaron Swartz**就是那位于去年（*2013年1月11日*）自杀,有着**开挂**一般人生经历的程序员。维基百科对他的[介绍](http://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)是：**软件工程师、作家、政治组织者、互联网活动家、维基百科人**。    
-
-他有着足以让你跪拜的人生经历：    
-+ **14岁**参与RSS 1.0规格标准的制订。     
-+ **2004**年入读**斯坦福**，之后退学。   
-+ **2005**年创建[Infogami](http://infogami.org/)，之后与[Reddit](http://www.reddit.com/)合并成为其合伙人。   
-+ **2010**年创立求进会（Demand Progress），积极参与禁止网络盗版法案（SOPA）活动，最终该提案被撤回。   
-+ **2011**年7月19日，因被控从MIT和JSTOR下载480万篇学术论文并以免费形式上传于网络被捕。     
-+ **2013**年1月自杀身亡。    
-
-![Aaron Swartz](https://github.com/younghz/Markdown/raw/master/resource/Aaron_Swartz.jpg)
-
-天才都有早逝的归途。
-
-### 3. *为什么*要使用它？
-+ 它是易读（看起来舒服）、易写（语法简单）、易更改**纯文本**。处处体现着**极简主义**的影子。
-+ 兼容HTML，可以转换为HTML格式发布。
-+ 跨平台使用。
-+ 越来越多的网站支持Markdown。
-+ 更方便清晰地组织你的电子邮件。（Markdown-here, Airmail）
-+ 摆脱Word（我不是认真的）。
-
-### 4. *怎么*使用？
-如果不算**扩展**，Markdown的语法绝对**简单**到让你爱不释手。
+## Markdown语法内容
 
 Markdown语法主要分为如下几大部分：
 **标题**，**段落**，**区块引用**，**代码区块**，**强调**，**列表**，**分割线**，**链接**，**图片**，**反斜杠 `\`**，**符号'`'**。
@@ -168,42 +131,3 @@ void main()
 
 效果：
 >`ctrl+a`    
-
-#### 5. *谁*在用？
-Markdown的使用者：
-+ GitHub
-+ 简书
-+ Stack Overflow
-+ Apollo
-+ Moodle
-+ Reddit
-+ 等等
-
-#### 6. 尝试一下
-+ **Chrome**下的插件诸如`stackedit`与`markdown-here`等非常方便，也不用担心平台受限。
-+ **在线**的dillinger.io评价也不错   
-+ **Windowns**下的MarkdownPad也用过，不过免费版的体验不是很好。    
-+ **Mac**下的Mou是国人贡献的，口碑很好。
-+ **Linux**下的ReText不错。    
-
-**当然，最终境界永远都是笔下是语法，心中格式化 :)。**
-
-****
-**注意**：不同的Markdown解释器或工具对相应语法（扩展语法）的解释效果不尽相同，具体可参见工具的使用说明。
-虽然有人想出面搞一个所谓的标准化的Markdown，[没想到还惹怒了健在的创始人John Gruber]
-(http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/ )。
-****
-以上基本是所有traditonal markdown的语法。
-
-### 其它：
-列表的使用(非traditonal markdown)：
-
-用`|`表示表格纵向边界，表头和表内容用`-`隔开，并可用`:`进行对齐设置，两边都有`:`则表示居中，若不加`:`则默认左对齐。
-
-|代码库                              |链接                                |
-|:------------------------------------:|------------------------------------|
-|MarkDown                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
-|MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
-
-
-关于其它扩展语法可参见具体工具的使用说明。
